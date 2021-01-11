@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facci-Uleam</title>
+    <link rel="shortcut icon" href="img/AcercaDe.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/EstiloInicio.css">
+    <link rel="stylesheet" href="css/SolicitarTurno.css">
+   
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="ConsultarInscripcion.html">Consultar inscripción</a>
+            <a href="Login.html">Administracion de inscripción</a>
+            <a href="AcercaDe.html">Acerca de</a>
+           
+        </nav>
+        <section class="textos-header">
+            <h1>Cursos Gratis</h1>
+            <h2>Kids</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="clientes contenedor">
+      
+        <table>
+            <tr>
+                <td>
+                    <form id="validar">
+                        <div>
+                            <label>Nombres Completos:</label><label class="validation-error hide" id="fullNameValidationError">Este campo es requerido.</label>
+                            <input type="text" name="fullName" id="txtNombreCompleto">
+                        </div>
+                        <div>
+                            <label>Número de cedula:</label>
+                            <input type="number" name="empCode" id="txtNumeroCedula">
+							
+                        </div>
+                        <div class="fecha">
+                            <label>Seleccione disponibilidad de horas del niño</label>
+                            <input type="time" name="salary" id="DtFecha">
+							<input type="time" name="salary" id="DtFecha2">
+                        </div>
+                        <div>
+                            <label>Edad</label>
+                            <input type="number" name="city" id="txtCiudad">
+                        </div>
+                        <div>
+                            <label>Seleccione los cursos a inscibirse</label>
+                            <select name="combo" id="Seleccion">
+                                <!-- Opciones de la lista -->
+                                <option value="1" >Guitarra</option>
+                                <option value="2" >Piano</option>
+								<option value="3" >Ajedrez</option>
+								<option value="4" >Futbol</option>
+								<option value="5" >basketball</option>
+                                <!-- Opción por defecto -->
+                                <option value="6" selected></option>
+                              </select>
+                        </div>
+                        
+                            <input type="submit" value="Enviar Solicitud">
+                       
+                    </form>
+                </td>
+                
+            </tr>
+        </table>
+    </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Telefono</h4>
+                <p>233-4543</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>cursosgratis@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicación</h4>
+                <p>Los Esteros</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Pagina realizada por Luis Velez| 2020</h2>
+    </footer>
+</body>
+<script src="js/Inscripcion.js"></script>
+s
+</html>
